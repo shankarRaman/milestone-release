@@ -1,0 +1,10 @@
+name: 'Milestone release draft'
+description: 'Action to create a Milestone release draft'
+author: 'Shankar Krishnakumar'
+outputs:
+  release-url:
+    description: 'The URL of the release draft'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  
